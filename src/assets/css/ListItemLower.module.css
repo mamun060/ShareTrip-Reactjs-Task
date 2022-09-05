@@ -1,0 +1,142 @@
+.selectItemWrapper {
+    position: relative;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.selectItemWrapper label {
+    position: absolute;
+    top: -8px;
+    left: 21px;
+    background-color: #fff;
+    padding: 0px 5px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #8E8E93;
+}
+
+.selectItemWrapper select:focus{
+    outline: none!important;
+}
+
+.seatListWrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 12px;
+    height: 40px;
+    background: #FAFAFA;
+}
+
+
+.LowerRightSection {
+    background-color: #fff;
+    border-left: 1px solid #E0E0E1;
+    padding: 20px 15px;
+}
+
+.RightButtonGroup {
+    display: flex;
+    padding: 20px 0px;
+}
+
+.RightButtonGroup .btnWithBg {
+    width: 50%;
+    text-align: center;
+    padding: 10px 0px;
+    background: #1882FF;
+    border-radius: 3px;
+    text-decoration: none;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    color: #FFFFFF;
+}
+
+.RightButtonGroup .btnWithoutBg {
+    width: 50%;
+    text-align: center;
+    padding: 8px 0px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    color: #8E8E93;
+    border-top: 1px solid #8E8E93;
+    border-right: 1px solid #8E8E93;
+    border-bottom: 1px solid #8E8E93;
+}
+
+.RightSeatGreenWrapper {
+    display: flex;
+    padding: 5px 0px;
+}
+
+.GreenSeatChild {
+    display: flex;
+    gap: 15px;
+    width: 50%;
+}
+.GreenSeatChild img {
+    width: 20px;
+    height: 20px;
+}
+.GreenSeatChild span {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    text-transform: capitalize;
+    color: #4C4C4C;
+}
+
+.GreenTicketPrice {
+    width: 50%;
+    text-align: right;
+}
+
+.GreenTicketPrice h2 {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    text-align: right;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.RightWrapSectionDivider {
+    width: 100%;
+    height: 1px;
+    background-color: #E0E0E1;
+    margin: 10px 0px;
+}
+
+.GreenTicketSubtota {
+    width: 50%;
+    text-align: right;
+}
+
+.GreenTicketSubtota h2 {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 129%;
+    text-align: right;
+    text-transform: capitalize;
+    color: #000000;
+}

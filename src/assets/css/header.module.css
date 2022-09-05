@@ -1,0 +1,40 @@
+.HeaderWrap {
+    width: auto;
+    height: 96px;
+    background: rgba(56, 132, 247, 0.16);
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.innerWrap {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.menuWrap {
+    padding-top: 20px;
+}
+
+.menuUi {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 96px;
+}
+
+.logoStyle img {
+    width: 178px;
+    height: 56px;
+}
+
+.menuUi li {
+    list-style: none;
+    padding: 0px 10px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+}

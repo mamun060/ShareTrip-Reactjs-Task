@@ -1,0 +1,9 @@
+.MainListItemWrapper {
+    background: #FFFFFF;
+    border: 1px solid #F6F6F6;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 12%);
+    border-radius: 3px;
+    margin-left: -11px;
+    margin-top: 16px;
+    margin-right: 13px;
+}
